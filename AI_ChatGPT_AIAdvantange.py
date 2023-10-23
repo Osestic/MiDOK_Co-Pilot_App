@@ -33,9 +33,9 @@ def urbanHealthCareAi():
 
            return jsonify({'response': response.choices[0].message['content']})
 
-    return jsonify({'response':'No message was provided'})
-  #  html_response = f"<html><body>{response.choices[0].text}</body></html>"
-   # return html_response
+    #return jsonify({'response':'No message was provided'})
+    html_response = f"<html><body>{response.choices[0].text}</body></html>"
+    return html_response
   
 if __name__ == '__main__':
     app.run(debug=True, host="0.0.0.0", port=5000)
