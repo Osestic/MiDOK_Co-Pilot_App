@@ -40,6 +40,7 @@ def urbanHealthCareAi():
 from flask import Flask, request, jsonify
 import openai
 import tiktoken
+import sys
 
 app = Flask(__name__)
 
@@ -85,7 +86,7 @@ def urbanHealthCareAi():
  
            )
 
-           print("\nThe number of tokens in your message is", num_tokens)
+           print_to_stdout("\nThe number of tokens in your message is", num_tokens)
            
            return jsonify({'response': response.choices[0].message['content']}),200
    
