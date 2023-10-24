@@ -95,7 +95,11 @@ def num_tokens_from_string(string: str, encoding_for_model: str) -> int:
     encoding = tiktoken.encoding_for_model(encoding_for_model)
     num_tokens = len(encoding.encode(string))
     return num_tokens
-
+    
+def print_to_stdout(*a):
+    # Here a is the array holding the objects
+    # passed as the argument of the function
+    print(*a, file=sys.stdout)
 
 if __name__ == '__main__':
     app.run(debug=True, host="0.0.0.0", port=5000)
