@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/roundstyle"
+            android:src="@drawable/diabetes" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List of Common Symptoms for Diabetes"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:padding="16dp">
+            <!-- List of Common Symptoms -->
+
+
+            <CheckBox
+                android:id="@+id/checkbox_urinate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Urinate (pee) a lot" />
+
+            <CheckBox
+                android:id="@+id/checkbox_thirsty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Are very thirsty" />
+
+            <CheckBox
+                android:id="@+id/checkbox_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lost of weight" />
+
+            <CheckBox
+                android:id="@+id/checkbox_hungry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Are very hungry" />
+
+            <CheckBox
+                android:id="@+id/checkbox_blurry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Have blurry vision" />
+
+            <CheckBox
+                android:id="@+id/checkbox_numb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Have numb or tingling hands or feet" />
+
+            <CheckBox
+                android:id="@+id/checkbox_tired"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feel very tired" />
+
+            <CheckBox
+                android:id="@+id/checkbox_skin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Have very dry skin" />
+
+
+
+        </GridLayout>
+
+        <!-- Severity Slider -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Severity"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/seekbar_severity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="10"
+            android:progress="1"/>
+
+        <!-- Duration Selector -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"
+            android:text="Duration"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner_duration"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/duration_entries" />
+
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#5C98d2"
+            android:text="Continue"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:text="Disclaimer: this service cannot truly replace a real human health professional and educational expert"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:gravity="center_horizontal"/>
+
+        <!-- Copyright Text -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Copyright (c) 2023"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

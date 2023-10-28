@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:spacing="20dp">
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/roundstyle"
+                android:src="@drawable/educational_resources_image" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:text="Educational Resources"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/subjectsButton"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/roundstyle"
+                android:backgroundTint="#5C98d2"
+                android:textColor="@color/white"
+                android:text="Subjects" />
+
+            <Button
+                android:id="@+id/professionalExamsButton"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/roundstyle"
+                android:backgroundTint="#5C98d2"
+                android:textColor="@color/white"
+                android:text="Professional Exams" />
+
+            <Button
+                android:id="@+id/advisingButton"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/roundstyle"
+                android:backgroundTint="#5C98d2"
+                android:textColor="@color/white"
+                android:text="Advising" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_disclaimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/black"
+        android:text="Disclaimer: this service cannot truly replace a real human health professional and educational expert"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_disclaimer"
+        android:layout_alignParentBottom="true"
+        android:text="Copyright (c) 2023"
+        android:gravity="center_horizontal"
+        android:textSize="12sp" />
+
+</RelativeLayout>

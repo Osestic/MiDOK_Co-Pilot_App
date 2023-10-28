@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Professional Exams"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:padding="16dp" />
+
+    <!-- Picture placeholder -->
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/midok" />
+
+    <!-- Search Bar (using AutoCompleteTextView) -->
+    <AutoCompleteTextView
+        android:id="@+id/examSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/picture"
+        android:hint="What exam are you preparing for?"
+        android:padding="16dp" />
+
+    <!-- Spinner for letter A (and similarly for other letters) -->
+    <Spinner
+        android:id="@+id/spinnerA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/examSearch"
+        android:visibility="gone"/> <!-- Initially hidden -->
+
+    <Spinner
+        android:id="@+id/spinnerB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row1"
+        android:visibility="gone"/>
+
+    <!-- Spinner for letter C -->
+    <Spinner
+        android:id="@+id/spinnerC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row1"
+        android:visibility="gone"/>
+
+    <!-- Spinner for letter D -->
+    <Spinner
+        android:id="@+id/spinnerD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row1"
+        android:visibility="gone"/>
+
+    <!-- Spinner for letter E -->
+    <Spinner
+        android:id="@+id/spinnerE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row1"
+        android:visibility="gone"/>
+
+    <!-- Spinner for letter F -->
+    <Spinner
+        android:id="@+id/spinnerF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row1"
+        android:visibility="gone"/>
+    <!-- Button Grid for A-W -->
+
+    <!-- Row 1: A-F -->
+    <LinearLayout
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerA"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <Button
+            android:id="@+id/buttonA"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="A" />
+
+        <!-- Buttons B-F -->
+        <Button
+            android:id="@+id/buttonB"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="B" />
+
+        <Button
+            android:id="@+id/buttonC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/buttonD"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="D" />
+
+        <Button
+            android:id="@+id/buttonE"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="E" />
+
+        <Button
+            android:id="@+id/buttonF"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="F" />
+
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinnerG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/spinnerH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/spinnerI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/spinnerJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/spinnerK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/spinnerL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/row2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row1"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <Button
+            android:id="@+id/buttonG"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="G" />
+
+        <Button
+            android:id="@+id/buttonH"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="H" />
+
+        <Button
+            android:id="@+id/buttonI"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="I" />
+
+        <Button
+            android:id="@+id/buttonJ"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="J" />
+
+        <Button
+            android:id="@+id/buttonK"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="K" />
+
+        <Button
+            android:id="@+id/buttonL"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="L" />
+
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinnerM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/spinnerN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/spinnerO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/spinnerP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/spinnerQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/spinnerR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:visibility="gone"/>
+
+    <!-- Row 3: M-R -->
+    <LinearLayout
+        android:id="@+id/row3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+
+        <Button
+            android:id="@+id/buttonM"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="M" />
+
+        <Button
+            android:id="@+id/buttonN"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="N" />
+
+        <Button
+            android:id="@+id/buttonO"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="O" />
+
+        <Button
+            android:id="@+id/buttonP"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="P" />
+
+        <Button
+            android:id="@+id/buttonQ"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="Q" />
+
+        <Button
+            android:id="@+id/buttonR"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="R" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinnerS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/spinnerT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/spinnerU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/spinnerV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/spinnerW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:visibility="gone"/>
+    <!-- Row 4: S-W -->
+    <LinearLayout
+        android:id="@+id/row4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row3"
+        android:orientation="horizontal"
+        android:weightSum="5"> <!-- Only 5 buttons in this row (S-W) -->
+
+        <Button
+            android:id="@+id/buttonS"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="S" />
+
+        <Button
+            android:id="@+id/buttonT"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="T" />
+
+        <Button
+            android:id="@+id/buttonU"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="U" />
+
+        <Button
+            android:id="@+id/buttonV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="V" />
+
+        <Button
+            android:id="@+id/buttonW"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="W" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinnerX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/spinnerY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/spinnerZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/row5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row4"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/buttonX"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="X" />
+
+        <Button
+            android:id="@+id/buttonY"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="Y" />
+
+        <Button
+            android:id="@+id/buttonZ"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ADB1F4"
+            android:text="Z" />
+    </LinearLayout>
+    <!-- Continue Button -->
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#000FFF"
+        android:textColor="@color/white"
+        android:layout_below="@id/row5"
+        android:layout_centerHorizontal="true"
+        android:text="Continue" />
+
+</RelativeLayout>
