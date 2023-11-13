@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/symptoms" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List of Common Symptoms"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:padding="16dp">
+        <!-- List of Common Symptoms -->
+
+
+        <CheckBox
+            android:id="@+id/checkbox_fever"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fever" />
+
+        <CheckBox
+            android:id="@+id/checkbox_fatigue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fatigue" />
+
+        <CheckBox
+            android:id="@+id/checkbox_breath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shortness of Breath" />
+
+        <CheckBox
+            android:id="@+id/checkbox_cough"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Persistent Cough" />
+
+        <CheckBox
+            android:id="@+id/checkbox_pain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Joint Pain" />
+
+        <CheckBox
+            android:id="@+id/checkbox_throat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sore Throat" />
+
+        <CheckBox
+            android:id="@+id/checkbox_taste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loss of Taste or Smell" />
+
+        <CheckBox
+            android:id="@+id/checkbox_headache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Headache" />
+
+        <CheckBox
+            android:id="@+id/checkbox_vomiting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nausea or Vomiting" />
+
+        <CheckBox
+            android:id="@+id/checkbox_diarrhea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diarrhea" />
+
+        <CheckBox
+            android:id="@+id/checkbox_aches"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muscle Aches" />
+
+        <CheckBox
+            android:id="@+id/checkbox_chills"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chills" />
+
+        </GridLayout>
+
+        <!-- Severity Slider -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Severity"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/seekbar_severity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="10"
+            android:progress="1"/>
+
+        <!-- Duration Selector -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"
+            android:text="Duration"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner_duration"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/duration_entries" />
+
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/roundstyle"
+            android:backgroundTint="#5C98d2"
+            android:text="Continue"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:text="Disclaimer: this service cannot truly replace a real human health professional and educational expert"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:gravity="center_horizontal"/>
+
+        <!-- Copyright Text -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Copyright (c) 2023"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
