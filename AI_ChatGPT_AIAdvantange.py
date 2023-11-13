@@ -1,29 +1,3 @@
-"""
-import openai
-import gradio
-
-openai.api_key = open("Secret Key Ohu OpenAi.txt","r").read().rstrip("\n")
-
-messages = [{"role": "system", "content": "You are the best and most helpful healthcare AI with decades of years of information and data. I am only interested in information related to healthcare. Do not provide any information that is unrelated to healthcare. If a user asks a question unrelated to healthcare, respond with: I am a healthcare AI; I do not have the information on what you are requesting.Do not generate any content that is offensive, inappropriate, or harmful."}]
-
-def CustomChatGPT(user_input):
-    messages.append({"role": "user", "content": user_input})
-    response = openai.ChatCompletion.create(
-        model = "gpt-3.5-turbo",
-        messages = messages
-    )
-    ChatGPT_reply = response["choices"][0]["message"]["content"]
-    messages.append({"role": "assistant", "content": ChatGPT_reply})        
-    return ChatGPT_reply`
-
-demo = gradio.Interface(fn=CustomChatGPT, inputs = "text", outputs = "text", title = "Urban Healthcare Initiative")
-
-demo.launch(share=True)
-
-
-
-Video extensive like google iphone adds, acting videos software etc.
-"""
 
 from flask import Flask, request, jsonify
 import openai
