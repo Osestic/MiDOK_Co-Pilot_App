@@ -1,10 +1,12 @@
 # MiDOK_Co-Pilot_App
 
+Picture of App
+
 ## Description
 
 In today's healthcare landscape, we're facing unprecedented challenges. 
 The nursing shortage and an alarming rise in professional burnout have put strains on our healthcare system. 
-Our team is proud to present MiDOK, an innovative AI-powered diagnostic application designed specifically to support and enhance the capabilities of healthcare professionals and individuals training to join the healthcare field.
+Our team is proud to present MiDOK, an innovative AI-powered diagnostic co-pilot application designed specifically to support and enhance the capabilities of healthcare professionals and individuals training to join the healthcare field.
 
 MiDOK utilizes a unique AI-prompting mechanism.
 Through a series of button-based selections and checkboxes, healthcare professionals can narrow down a vast spectrum of medical conditions, receiving targeted lists of potential diagnoses. 
@@ -24,6 +26,12 @@ In essence, MiDOK represents a harmonious fusion of advanced artificial intellig
 By bridging the gap between these two worlds, we aim to provide a solution that ensures every patient receives timely, accurate, and efficient care, even in the face of the ongoing challenges in our healthcare system.
 
 
+## Built With
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+
+
 ## Installation
 There are two different folders containing the projects for the iOS version and Android version of the app respectively.
 - Ios application: Run the Swift project contained in ```Ios_app/```
@@ -34,49 +42,47 @@ These applications have to be connected to the AI API for the application. They 
 To create yours: 
 - Place the ```start_api.py```, ```MiDOK_Python_AI_API.py``` and the ```requirements.txt``` in your own
 GitHub repository.
-- Connect the repository to a free API hosting site like https://render.com/, which is what we used.
+- Connect the repository to a free API hosting site like [https://render.com/], which is what we used.
 - Replace the link to our API in both the Swift and Kotlin code with your API link provided by the hosting.
+- Create an OpenAI account and generate an API key for you to use for the Python API
+- Ensure you use environment variables to prevent your key from being exposed
+
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Run either application and provide any relevant information as you click through the app and interact with it.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+The iOS application demo:
 
+The Android application demo:
     ```md
     ![alt text](assets/images/screenshot.png)
     ```
+# Note
+- The AI Python API response time is not as quick as the actual ChatGPT application
+- It can take 10 - 60 seconds or more depending on the length/number of tokens of text sent to it
+- Not all the buttons are functional, the demo shows those that work.
+- 
+  
+## Authors
+This project was a result of the collaborative effort of the following groups of persons and myself:
+1. Oriekaose Chukwuyem Agholor - AI Python and UI/UX Developer [https://github.com/Osestic]
+2. Eyimode Oladipo - iOS Swift Application Developer 
+3. Sarwar Nazrul - Android Kotlin Application Developer
+4. Lukas Nilsen - Project, Customer and Market Researcher
+5. Bilal Kachir - Graphics and Logo Designer
 
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 ## License
+This project is licensed under the GNU GPLv3. See ```License.txt``` for more information
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
 
 ## How to Contribute
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
 
-## Tests
+## Recommendations
+- Ensure you have a strong internet connection to improve the AI API connectivity
+- Utilise a faster and more powerful server for quicker AI API response time (You may need to pay for this)
+- Adapt the same layout and UI/UX to both the iOS and Android Application
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
