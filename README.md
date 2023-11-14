@@ -52,7 +52,7 @@ GitHub repository
 Run either application and provide any relevant information as you click through the app and interact with it.
 
 The iOS application demo:
-https://github.com/Osestic/MiDOK_Co-Pilot_App/blob/main/img/MiDOK_iOS.mov
+![](/img/MiDOK_iOS.mov)
 
 The Android application demo:
     ```md
@@ -85,4 +85,6 @@ This project is licensed under the “Commons Clause” License Condition v1.0. 
 - Ensure you have a strong internet connection to improve the AI API connectivity
 - Utilise a faster and more powerful server for quicker AI API response time (You may need to pay for this)
 - Adapt the same layout and UI/UX to both the iOS and Android Application
+- Allow other persons to use the apps and give feedback
+- Act on the feedback accordingly
 
