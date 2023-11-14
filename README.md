@@ -58,11 +58,11 @@ The Android application demo:
     ```md
     ![alt text](assets/images/screenshot.png)
     ```
-# Note
+## Note
 - The AI Python API response time is not as quick as the actual ChatGPT application
 - It can take 10 - 60 seconds or more depending on the length/number of tokens of text sent to it
 - Not all the buttons are functional, the demo shows those that work.
-- 
+
   
 ## Authors
 This project was a result of the collaborative effort of the following groups of persons and myself:
