@@ -41,15 +41,14 @@ These applications have to be connected to the AI API for the application. They 
 
 To create yours: 
 - Place the ```start_api.py```, ```MiDOK_Python_AI_API.py``` and the ```requirements.txt``` in your own
-GitHub repository.
-- Connect the repository to a free API hosting site like [https://render.com/], which is what we used.
-- Replace the link to our API in both the Swift and Kotlin code with your API link provided by the hosting.
+GitHub repository
+- Connect the repository to a free API hosting site like [https://render.com/], which is what we used
+- Replace the link to our API in both the Swift and Kotlin code with your API link provided by the hosting
 - Create an OpenAI account and generate an API key for you to use for the Python API
 - Ensure you use environment variables to prevent your key from being exposed
 
 
 ## Usage
-
 Run either application and provide any relevant information as you click through the app and interact with it.
 
 The iOS application demo:
@@ -58,10 +57,10 @@ The Android application demo:
     ```md
     ![alt text](assets/images/screenshot.png)
     ```
-## Note
+### Note
 - The AI Python API response time is not as quick as the actual ChatGPT application
 - It can take 10 - 60 seconds or more depending on the length/number of tokens of text sent to it
-- Not all the buttons are functional, the demo shows those that work.
+- Not all the buttons are functional, the demo shows those that work
 
   
 ## Authors
