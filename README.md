@@ -80,7 +80,7 @@ https://github.com/Osestic/MiDOK_Co-Pilot_App/assets/42704298/3a2e5abe-4d6a-426d
 ## Authors
 This project was a result of the collaborative effort of the following groups of persons and myself:
 1. Oriekaose Chukwuyem Agholor - AI Python and UI/UX Developer [https://github.com/Osestic]
-2. Eyimode Oladipo - iOS Swift Application Developer 
+2. Eyimofe Oladipo - iOS Swift Application Developer 
 3. Sarwar Nazrul - Android Kotlin Application Developer [http://github.com/Sarwarnazrul242]
 4. Lukas Nilsen - Project, Customer and Market Researcher
 5. Bilal Kachir - Graphics and Logo Designer
