@@ -87,7 +87,7 @@ This project was a result of the collaborative effort of the following groups of
 
 
 ## License
-This project is licensed under the “Commons Clause” License Condition v1.0. See ```LICENSE``` for more information
+This project is licensed under the “Commons Clause” License Condition v1.0. See ```LICENSE``` for more information.
 
 
 ## How to Contribute
