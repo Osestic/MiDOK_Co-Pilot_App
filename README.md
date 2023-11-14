@@ -52,7 +52,11 @@ GitHub repository
 Run either application and provide any relevant information as you click through the app and interact with it.
 
 The iOS application demo:
-![](/img/MiDOK_iOS.mov)
+
+
+https://github.com/Osestic/MiDOK_Co-Pilot_App/assets/42704298/60544bf5-8811-4c7c-acb4-42d030b3d74d
+
+
 
 The Android application demo:
     ```md
