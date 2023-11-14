@@ -1,6 +1,6 @@
 # MiDOK_Co-Pilot_App
+![MiDOK_logo](https://github.com/Osestic/MiDOK_Co-Pilot_App/assets/42704298/a128659c-75d8-4185-92fc-2184a07fc05c)
 
-Picture of App
 
 ## Description
 
@@ -52,16 +52,13 @@ GitHub repository
 Run either application and provide any relevant information as you click through the app and interact with it.
 
 The iOS application demo:
-
-
 https://github.com/Osestic/MiDOK_Co-Pilot_App/assets/42704298/60544bf5-8811-4c7c-acb4-42d030b3d74d
 
 
 
 The Android application demo:
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+
+  
 ### Note
 - The AI Python API response time is not as quick as the actual ChatGPT application
 - It can take 10 - 60 seconds or more depending on the length/number of tokens of text sent to it
