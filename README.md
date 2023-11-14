@@ -67,7 +67,7 @@ The Android application demo:
 This project was a result of the collaborative effort of the following groups of persons and myself:
 1. Oriekaose Chukwuyem Agholor - AI Python and UI/UX Developer [https://github.com/Osestic]
 2. Eyimode Oladipo - iOS Swift Application Developer 
-3. Sarwar Nazrul - Android Kotlin Application Developer
+3. Sarwar Nazrul - Android Kotlin Application Developer [http://github.com/Sarwarnazrul242]
 4. Lukas Nilsen - Project, Customer and Market Researcher
 5. Bilal Kachir - Graphics and Logo Designer
 
