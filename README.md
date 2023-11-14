@@ -22,17 +22,20 @@ It's not just a tool for current healthcare professionals but it's also ensuring
 
 In essence, MiDOK represents a harmonious fusion of advanced artificial intelligence technology and medical expertise.
 By bridging the gap between these two worlds, we aim to provide a solution that ensures every patient receives timely, accurate, and efficient care, even in the face of the ongoing challenges in our healthcare system.
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
 
 
 ## Installation
-There are two different folders containing the projects for the Ios version and Android version of the app respectively.
-- Ios application: Run the swift project contained in ```Ios_app/```
-- Android application: Run the kotlin project contained in ```Android_app/src```
+There are two different folders containing the projects for the iOS version and Android version of the app respectively.
+- Ios application: Run the Swift project contained in ```Ios_app/```
+- Android application: Run the Kotlin project contained in ```Android_app/src```
 
+These applications have to be connected to the AI API for the application. They are currently connected to our own Python API. 
+
+To create yours: 
+- Place the ```start_api.py```, ```MiDOK_Python_AI_API.py``` and the ```requirements.txt``` in your own
+GitHub repository.
+- Connect the repository to a free API hosting site like https://render.com/, which is what we used.
+- Replace the link to our API in both the Swift and Kotlin code with your API link provided by the hosting.
 
 ## Usage
 
