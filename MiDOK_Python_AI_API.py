@@ -44,7 +44,7 @@ def urbanHealthCareAi():
 
            logging.basicConfig(format='%(message)s')
            log = logging.getLogger(__name__) 
-           log.warning("\nThe number of tokens in your message is %d", num_tokens)
+           #log.warning("\nThe number of tokens in your message is %d", num_tokens)
            log.warning(response['error'])
 
            
