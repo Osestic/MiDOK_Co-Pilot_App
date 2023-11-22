@@ -6,7 +6,7 @@ import tiktoken
 import logging
 
 app = Flask(__name__)
-
+CORS(app)
 
 # Load the OpenAI API key from the .env file
 openai_api_key = config('OPENAI_API_KEY')
