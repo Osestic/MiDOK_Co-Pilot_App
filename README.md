@@ -16,7 +16,7 @@ It's important to understand that MiDOK isn't intended to replace the expertise 
 Instead, it offers a supplementary tool to aid in the diagnosis process. 
 By presenting an array of potential diagnoses based on the input data, MiDOK gives doctors more information.
 We also understand the importance of accessibility in today's fast-paced world. 
-That's why we've made MiDOK available across various platforms. Whether you're a healthcare professional using an Apple device or an Android one, MiDOK is readily available at your fingertips.
+That's why we've made MiDOK available across various platforms. We have the app for both Apple and Android devices as well as the web, making MiDOK readily available at your fingertips.
 
 Beyond MiDOK’s healthcare application, it also emerges as a tool for individuals training to join the healthcare field. MiDOK simplifies the learning curve of healthcare schooling by offering AI-driven insights into potential diagnoses based on patient symptoms and data. 
 Trainees can compare their assessments with MiDOK's suggestions, facilitating a hands-on learning experience that's informative. By simulating real-world scenarios, MiDOK builds confidence in making decisions. 
