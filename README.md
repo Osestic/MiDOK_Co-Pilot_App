@@ -33,13 +33,14 @@ By bridging the gap between these two worlds, we aim to provide a solution that 
 ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
 
 ## Installation
-There are two different folders containing the projects for the iOS version and Android version of the app respectively.
+There are three different folders containing the projects for the iOS version and Android version of the app respectively.
 - Ios application: Run the Swift project contained in ```Ios_app/```
 - Android application: Run the Kotlin project contained in ```Android_app/src```
+- Web application: Run the project contained in ```Web_app/```
 
 These applications have to be connected to the AI API for the application. They are currently connected to our own Python API. 
 
@@ -53,7 +54,7 @@ GitHub repository
 
 
 ## Usage
-Run either application and provide any relevant information as you click through the app and interact with it.
+Run the applications and provide any relevant information as you click through the app and interact with it.
 
 The iOS application demo:
 
@@ -73,6 +74,12 @@ https://github.com/Osestic/MiDOK_Co-Pilot_App/assets/42704298/7a2a0f87-c2e4-47b8
 https://github.com/Osestic/MiDOK_Co-Pilot_App/assets/42704298/3a2e5abe-4d6a-426d-8236-740e5c12ba74
 
 
+The web application demo:
+
+
+https://github.com/Osestic/MiDOK_Co-Pilot_App/assets/42704298/207550aa-21fe-4337-9fe4-13ffdcf4254c
+
+
 
   
 ### Note
@@ -86,8 +93,9 @@ This project was a result of the collaborative effort of the following groups of
 1. Oriekaose Chukwuyem Agholor - AI Python and UI/UX Developer [https://github.com/Osestic]
 2. Eyimofe Oladipo - iOS Swift Application Developer 
 3. Sarwar Nazrul - Android Kotlin Application Developer [http://github.com/Sarwarnazrul242]
-4. Lukas Nilsen - Project, Customer and Market Researcher
-5. Bilal Kachir - Graphics and Logo Designer
+4. Emmanuel Etukudoh - Website Developer [https://github.com/emmanuel-et]
+5. Lukas Nilsen - Project, Customer and Market Researcher
+6. Bilal Kachir - Graphics and Logo Designer
 
 
 ## License
