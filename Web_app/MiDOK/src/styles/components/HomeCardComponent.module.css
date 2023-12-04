@@ -1,0 +1,30 @@
+/* Styles for the home card component */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #5C98D2;
+    box-shadow: 0 0 10px #ADD8E6;
+    width: 250px;
+    height: 100px;
+    align-items: center;
+    padding-left: 1%;
+    gap: 5%;
+    border-radius: 10px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.icon {
+    height: 70%;
+    width: 30%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.text {
+    font-size: 150%;
+    font-weight: 700;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+}

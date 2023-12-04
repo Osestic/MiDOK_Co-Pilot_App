@@ -1,0 +1,22 @@
+/* Styles for the button component */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5C98D2;
+    box-shadow: 0 0 10px #ADD8E6;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 0.5%;
+    user-select: none;
+    cursor: pointer;
+}
+
+.text {
+    font-size: 150%;
+    font-weight: 700;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+}

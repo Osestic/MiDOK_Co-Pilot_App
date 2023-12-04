@@ -1,0 +1,20 @@
+/* Styles for the checkbox group component */
+
+.container{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 50% 50%;
+    row-gap: 6%;
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: 2%;
+}
+
+.group {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    margin-right: 2%;
+}

@@ -1,0 +1,15 @@
+/* Styles for the MiDOK page */
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loadingAnimation{
+    stroke: red;
+    width: 100px;
+}
